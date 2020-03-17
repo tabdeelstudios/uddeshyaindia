@@ -38,7 +38,7 @@
 		
     		<div class="container team">
     		<h3 style="color:#607D8B;">Chairman and Executive Directors</h3><hr style="color:#607D8B;"/>
-		<div class="member-wrapper col-md-3 col-sm-4 col-xs-12">
+		<!-- <div class="member-wrapper col-md-3 col-sm-4 col-xs-12">
 	        	<div class="member">
 		            <div class="image">
 		            	<img src="images/chair.jpg" />
@@ -46,7 +46,7 @@
 		            <p>Siddharth Sinha</p>
 		            <p>Chairman</p>
 	        	</div>
-	        </div>
+	        </div> -->
 	        <div class="member-wrapper col-md-3 col-sm-4 col-xs-12">
 	        	<div class="member">
 		            <div class="image">
