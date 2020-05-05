@@ -1,0 +1,400 @@
+html{
+	-webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+	font-family: 'quicksandregular';
+	src: url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+	     font-weight: normal;
+	     font-style: normal;
+	}
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/Nexa_Free_Light-webfont.eot');
+    src: url('../fonts/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Nexa_Free_Light-webfont.woff') format('woff'),
+         url('../fonts/Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('../fonts/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'Socialico';
+	src: url('../fonts/Socialico.eot');
+	src: url('../fonts/Socialico.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Socialico.woff') format('woff'),
+	url('../fonts/Socialico.ttf') format('truetype'),
+	url('../fonts/Socialico.svg#Socialico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+	font-family: 'Socialico';
+	src: url('../fonts/Socialico.svg#Socialico') format('svg');
+	     font-weight: normal;
+	     font-style: normal;
+	}
+}
+
+@font-face {
+    font-family: 'CodeProDemoRegular';
+    src: url('../fonts/Code_Pro_Demo-webfont.eot');
+    src: url('../fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+         url('../fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+         url('../fonts/Code_Pro_Demo-webfont.svg#CodeProDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+	 font-family: 'CodeProDemoRegular';
+	src: url('../fonts/Code_Pro_Demo-webfont.svg#CodeProDemoRegular') format('svg');
+	     font-weight: normal;
+	     font-style: normal;
+	}
+}
+
+header{
+	width: 100%;
+	background-color: #333;
+	height: 50px;
+	font-family: "quicksandregular";
+	font-size: 24px;
+	color: white;
+	padding-top: 8px;
+	text-align: center;
+	position: fixed;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+#showcase{
+	width: 900px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.disp_heading{
+	font-family: "quicksandregular";
+	font-size: 32px;
+	color: white;
+	width: 300px;
+	height: 45px;
+	text-align: center;
+	background: #bf4040;
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+}
+
+#disp_image{
+	width: 600px;
+	float: left;
+}
+
+#info{
+	background: #bf4040;
+	width: 300px;
+	padding-top: 20px;
+	height: 285px;
+	color: white;
+	font-family: "quicksandregular";
+	font-size: 22px;
+	text-align: center;
+	float: left;
+}
+
+#info span{
+	font-size: 34px;
+	padding:15px;
+	display: block;
+	height: 185px;
+}
+
+#info span div{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	color: white;
+	font-family: "CodeProDemoRegular";
+	margin-top: 20px;
+	font-size: 62px;
+	padding-top:10px;
+}
+
+#info a{
+	color: yellow;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#info-click{
+	height: 80px;
+	line-height: 1.1em;
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 900px){
+	.disp_heading{
+		width: 400px;
+	}
+	#disp_image{
+		width: 400px;
+	}
+	#showcase{
+		width: 400px;
+	}
+	#info{
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.disp_heading{
+		width: 300px;
+	}
+	#disp_image{
+		width: 300px;
+	}
+	#showcase{
+		width: 300px;
+	}
+	#info{
+		width: 300px;
+	}
+}
+
+.line{
+	width: 70%;
+	height: 1px;
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: left;
+	width: 240px;
+	height: 180px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#attr{
+	width: 700px;
+	height: 160px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading{
+	font-family: "CodeProDemoRegular";
+	font-size: 22px;
+	color: rgb(50,50,50);
+	border-bottom: 2px solid rgb(50,50,50);
+	height: 30px;
+	display: block;
+	width: 240px;
+	margin-top:15px ;
+	margin-bottom: 15px;
+}
+
+#read{
+	width: 270px;
+}
+
+#scroll
+{
+	width: 400px;
+	height: 100px;
+	overflow: hidden;
+}
+
+li{
+	height: 100px;
+	display: block;
+	font-family: "quicksandregular";
+	font-size: 15px;
+}
+
+.socialLink{
+	text-align: center;
+}
+
+.socialLink a{
+	text-decoration: none;
+	font-family: "Socialico";
+	color: rgb(50,50,50);
+	font-size: 40px;
+}
+
+.socialLink a:hover{
+	text-decoration: none;
+	color: #121010;
+}
+
+#contact{
+	font-family: "quicksandregular";
+	font-size: 17px;
+	color: rgb(50,50,50);
+	display: block;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 800px){
+	#attr{
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+	}
+	#left{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.heading{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#right{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#scroll
+	{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	li{
+		text-align: center;
+	}
+}
+
+
+
+.ev-item{
+	width: 700px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.ev-image{
+	width: 200px;
+	height: 150px;
+	float: left;
+	overflow: hidden;
+	border:1px solid #121010;
+}
+
+.ev-content{
+	width: 480px;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+}
+
+.ev-title a{
+	font-family: "CodeProDemoRegular";
+	font-size: 28px;
+	color: rgb(50,50,50);
+}
+
+.ev-title a:hover{
+	text-decoration: none;
+	color: #bf4040;
+}
+
+.ev-info{
+	margin-top: 5px;
+	font-size: 16px;
+	font-family: "quicksandregular";
+}
+
+.sm-line{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	background-color: grey;
+	clear: both;
+}
+
+@media only screen and (max-width: 768px){
+	.ev-item{
+		width: 300px;
+		height: 320px;
+	}
+	.ev-image{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.ev-content{
+		margin-top: 10px;
+		width: 300px;
+		margin-left: 0px;
+	}
+	.ev-title{
+		width: 300px;
+		text-align: center;
+	}
+	.ev-info{
+		text-align: center;
+	}
+}
+
+footer{
+	width: 100%;
+	height: 42px;
+	margin-top: 30px;
+	font-family: "quicksandregular";
+	font-size: 22px;
+	clear: both;
+	text-align: center;
+	background-color: #252020;
+	padding-top: 5px;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #bf4040;
+}
